@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100&family=Plus+Jakarta+Sans:wght@500;800&family=Red+Hat+Display:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(#ffb92a 40%, #1c1917 50%);
+}
+
+.container {
+  font-size: 16px;
+  width: 375px;
+  padding: 3em 1.8em;
+  background-color: #1e293b;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.6em;
+}
+
+.search-container {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  grid-gap: 1.2em;
+  margin-bottom: 10px;
+}
+.search-container input {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #a0a0a0;
+  padding: 0.6em;
+}
+
+.search-container input:focus {
+  border-color: #fff;
+}
+
+.search-container button {
+  background-color: #ffb92a;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:active {
+  transform: scale(80%);
+}
+
+.msg {
+  display: none;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+/*styling the classes from the js file*/
+
+#result {
+  color: #fff;
+}
+.info {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+}
+
+.genre {
+  padding: 10px 0;
+}
+
+.plot {
+  width: 100%;
+  padding: 10px;
+  background: #31435f;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 100;
+  padding: 4px;
+}
+h3 {
+  font-weight: 200;
+}
